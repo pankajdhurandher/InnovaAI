@@ -1,24 +1,31 @@
 import { assets } from "../assets/assets"
+import aaravImg from "../assets/Aarav_Sharma_rounded_image.png"
+import vikramImg from "../assets/Vikram_Bansal_rounded_image.png"
+import priyaImg from "../assets/Priya_Metha_rounded_image.png"
+// import priyaImg from "../assets/Priya_Mehta_rounded_image.png"
 
 const Testimonial = () => {
     const dummyTestimonialData = [
         {
-            image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
-            name: 'John Doe',
+            // image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200",
+            image: aaravImg,
+            name: 'Aarav Sharma',
             title: 'Marketing Director, TechCorp',
             content: 'ContentAI has revolutionized our content workflow. The quality of the articles is outstanding, and it saves us hours of work every week.',
             rating: 4,
         },
         {
-            image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
-            name: 'Jane Smith',
+            // image: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200",
+            image: vikramImg,
+            name: 'Vikram Bansal',
             title: 'Content Creator, TechCorp',
             content: 'ContentAI has made our content creation process effortless. The AI tools have helped us produce high-quality content faster than ever before.',
             rating: 5,
         },
         {
-            image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
-            name: 'David Lee',
+            // image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop",
+            image: priyaImg,
+            name: 'Priya Mehta',
             title: 'Content Writer, TechCorp',
             content: 'ContentAI has transformed our content creation process. The AI tools have helped us produce high-quality content faster than ever before.',
             rating: 4,
